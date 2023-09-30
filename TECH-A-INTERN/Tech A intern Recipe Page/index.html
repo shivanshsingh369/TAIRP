@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Delicious Recipes</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/128/11471/11471930.png" alt="Logo">
+            <h1>Delicious Recipes</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="home">
+        <h1>Welcome to Delicious Recipes</h1>
+        <div class="slider-container">
+            <button class="prev-btn" onclick="showSlide(-1)">&#10094;</button>
+            <div class="slider">
+                <div class="slide">
+                    <img src="http://surl.li/lqjle" alt="Recipe 1">
+                    <h2>Baked Chicken</h2>
+                    <div class="rating">★★★★☆</div>
+                    <p>Enjoy a succulent baked chicken with a crispy skin.</p>
+                </div>
+                <div class="slide">
+                    <img src="http://surl.li/lqjnn" alt="Recipe 2">
+                    <h2>Salmon With Spinach</h2>
+                    <div class="rating">★★★☆☆</div>
+                    <p>A healthy dish featuring salmon and fresh spinach.</p>
+                </div>
+                <div class="slide">
+                    <img src="http://surl.li/lqjpy" alt="Recipe 3">
+                    <h2>Raspberry Tartlet</h2>
+                    <div class="rating">★★★★☆</div>
+                    <p>Indulge in a delightful raspberry tartlet dessert.</p>
+                </div>
+                <div class="slide">
+                    <img src="http://surl.li/lqnox" alt="Recipe 4">
+                    <h2>Ultimate Cheese Burger</h2>
+                    <div class="rating">★★★★★</div>
+                    <p>"Indulge in the ultimate satisfaction with our mouthwatering Ultimate Cheese Burgers."</p>
+                </div>
+                <div class="slide">
+                    <img src="http://surl.li/lqnpn" alt="Recipe 5">
+                    <h2>Chicken Tikka Masala</h2>
+                    <div class="rating">★★★★☆</div>
+                    <p>"Embark on a culinary journey with the exquisite flavors of our Chicken Tikka Masala."</p>
+                </div>
+                <div class="slide">
+                    <img src="http://surl.li/lqnqc" alt="Recipe 6">
+                    <h2>Tofu and Cheese Pancakes</h2>
+                    <div class="rating">★★★★★</div>
+                    <p>"Discover a delightful fusion of flavors with our Tofu and Cheese Pancakes."</p>
+                </div>
+                <div class="slide">
+                    <img src="http://surl.li/lqnqp" alt="Recipe 7">
+                    <h2>Ultimate Pot Roast</h2>
+                    <div class="rating">★★★★☆</div>
+                    <p>"Experience the epitome of comfort food with our Ultimate Pot Roast."</p>
+                </div>
+            </div>
+            <button class="next-btn" onclick="showSlide(1)">&#10095;</button>
+        </div>
+    </div>
+    <div class="recipes-section" id="recipes">
+        <div class="recipes-header">
+            <h1>Recipe Categories</h1>
+            <p>Explore our delicious recipes →</p>
+        </div>
+        <div class="recipe-item">
+            <img src="http://surl.li/lqnhd" alt="Recipe 1">
+            <h3>Appetizers</h3>
+            <div class="recipe-overlay">
+                <p>"Delight your taste buds with our mouthwatering selection of appetizers."</p>
+            </div>
+        </div>
+        <div class="recipe-item">
+            <img src="http://surl.li/lqnhp" alt="Recipe 2">
+            <h3>Beef</h3>
+            <div class="recipe-overlay">
+                <p>"Savor the rich and hearty flavors of our delectable beef dishes."</p>
+            </div>
+        </div>
+        <div class="recipe-item">
+            <img src="http://surl.li/lqnib" alt="Recipe 3">
+            <h3>Chicken</h3>
+            <div class="recipe-overlay">
+                <p>"Indulge in the deliciousness of our succulent chicken creations."</p>
+            </div>
+        </div>
+        <div class="recipe-item">
+            <img src="http://surl.li/lqnii" alt="Recipe 4">
+            <h3>Vegetarian</h3>
+            <div class="recipe-overlay">
+                <p>""Experience the vibrant world of vegetarian cuisine with our flavorful dishes.""</p>
+            </div>
+        </div>
+        <div class="recipe-item">
+            <img src="http://surl.li/lqnip" alt="Recipe 5">
+            <h3>Desserts</h3>
+            <div class="recipe-overlay">
+                <p>""Sweeten your day with our tempting and delightful dessert creations.""</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="latest-recipes" class="latest-recipes-section">
+        <h2>Latest Recipes</h2>
+        <p>Check out our newest recipes with reviews:</p>
+        <div class="recipe-grid">
+           
+            <div class="recipe-item">
+                <img src="http://surl.li/lqoem" alt="Recipe 1">
+                <h3>Lemon Garlic Butter Shrimp</h3>
+                <p class="review">"Delicious! A must-try dish."<br>by John</p>
+                <div class="rating">
+                    ★★★★☆
+                </div>
+            </div>
+
+            <div class="recipe-item">
+                <img src="http://surl.li/lqola" alt="Recipe 2">
+                <h3>Creamy Tomato Basil Pasta</h3>
+                <p class="review">"Culinary delight!"<br>by Mary</p>
+                <div class="rating">
+                    ★★★★★
+                </div>
+            </div>
+
+            <div class="recipe-item">
+                <img src="http://surl.li/lqolv" alt="Recipe 3">
+                <h3>Honey Glazed Salmon</h3>
+                <p class="review">"Comfort food classic."<br>by David</p>
+                <div class="rating">
+                    ★★★★☆
+                </div>
+            </div>
+
+            <div class="recipe-item">
+                <img src="http://surl.li/lqomh" alt="Recipe 4">
+                <h3>Mushroom Risotto</h3>
+                <p class="review">"Delicious! A must-try dish."<br>by Sam</p>
+                <div class="rating">
+                    ★★★★☆
+                </div>
+            </div>
+
+            <div class="recipe-item">
+                <img src="http://surl.li/lqomv" alt="Recipe 5">
+                <h3>Spicy Thai Green Curry</h3>
+                <p class="review">"Healthy and tasty."<br>by Rose</p>
+                <div class="rating">
+                    ★★★★★
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="tel" placeholder="Phone Number">
+                    <textarea placeholder="Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="contact-info">
+                    <p>
+                        <img src="https://cdn-icons-png.flaticon.com/128/270/270798.png" alt="GitHub Icon">
+                        <a href="https://github.com/shivanshsingh369" target="_blank">GitHub</a>
+                    </p>
+                    <p>
+                        <img src="https://cdn-icons-png.flaticon.com/128/2504/2504923.png" alt="LinkedIn Icon">
+                        <a href="https://www.linkedin.com/in/shivansh-singh9555" target="_blank">LinkedIn</a>
+                    </p>
+                    <p>
+                        <img src="https://cdn-icons-png.flaticon.com/128/732/732200.png" alt="Email Icon">
+                        <a href="mailto:shivanshsingh9919@gmail.com">Email</a>
+                    </p>
+                    <p>
+                        <img src="https://cdn-icons-png.flaticon.com/128/5585/5585856.png" alt="Phone Icon">
+                        <a href="tel:+919555103705">Phone</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
